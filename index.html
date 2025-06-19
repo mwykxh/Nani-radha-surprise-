@@ -1,0 +1,70 @@
+# Nani-radha-surprise-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Nani Radha 💖</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to top left, #ffc0cb, #ffe4e1);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      overflow-x: hidden;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    img {
+      width: 70%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+    }
+    h1 {
+      font-size: 2em;
+      color: #d63384;
+      animation: popIn 1.5s ease-out;
+    }
+    .hidden-message {
+      display: none;
+      font-size: 1.5em;
+      color: #ff1493;
+      margin-top: 20px;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      margin-top: 20px;
+      box-shadow: 0 0 10px #ffb6c1;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes popIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_603fa071d0.mp3" type="audio/mpeg">
+  </audio>
+  <div class="container">
+    <h1>To My Nani Radha 💖</h1>
+    <img src="https://i.imgur.com/0R0Q6pZ.jpeg" alt="Our Cute Memory" />
+    <p>You light up my world more than you know 💫</p>
+    <button onclick="document.querySelector('.hidden-message').style.display='block'">Click for a Surprise 💌</button>
+    <div class="hidden-message">I love you more than words can say, Nani ❤️</div>
+  </div>
+</body>
+</html>
